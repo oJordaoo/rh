@@ -1,0 +1,13 @@
+{
+  "name": "peopleos-monorepo",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:api": "nx run api:serve",
+    "dev:desktop": "nx run desktop:serve"
+  },
+  "devDependencies": {
+    "nx": "^19.0.0",
+    "typescript": "^5.4.0"
+  }
+}

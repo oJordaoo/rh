@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.h-screen { height: 100vh; }
+.w-screen { width: 100vw; }
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.bg-slate-950 { background-color: #020617; }
+.text-white { color: #fff; }
+.text-center { text-align: center; }
+.space-y-2 > * + * { margin-top: 0.5rem; }
+.text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+.font-semibold { font-weight: 600; }
+.text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+.text-slate-300 { color: #cbd5e1; }

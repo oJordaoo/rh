@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nrwl/nx/master/packages/nx/schemas/nx-schema.json",
+  "npmScope": "peopleos",
+  "affected": {"defaultBase": "main"},
+  "targetDefaults": {},
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "packages"
+  }
+}
